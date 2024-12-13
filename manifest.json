@@ -1,0 +1,22 @@
+{
+  "name": "Remove shorts",
+  "description": "A Chrome extension to remove YouTube Shorts to increase your productivity.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "activeTab"],
+  "icons": {
+    "16": "images/logo16.png",
+    "48": "images/logo48.png",
+    "128": "images/logo128.png"
+  },
+  "action": {
+    "default_title": "Blocks youtube shorts!"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["main.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
