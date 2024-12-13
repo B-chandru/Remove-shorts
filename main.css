@@ -2,6 +2,6 @@ ytd-reel-shelf-renderer, ytd-rich-shelf-renderer[is-shorts] {
     display: none !important;
 }
 
-ytd-guide-entry-renderer:nth-child(2) {
+ytd-guide-entry-renderer:nth-child(2), .ytd-mini-guide-renderer:nth-child(2) {
     display: none !important;
 }
