@@ -7,7 +7,10 @@ A Chrome extension that dynamically removes YouTube Reels (Shorts) from the home
    ```bash
    git clone https://github.com/B-chandru/Remove-shorts.git
    ```
+![image](https://github.com/user-attachments/assets/52722f4c-350d-48f7-8e6e-e8d0e175ec30)
+
 2. Open Google Chrome and navigate to `chrome://extensions/`.
+
 3. Enable **Developer mode** in the top-right corner.
 4. Click **Load unpacked** and select the project folder.
 5. The extension will now be loaded and active.
